@@ -6,7 +6,7 @@ public:
             a=val;
             reverse(val.begin(), val.end());
             if(val==a){
-                return val;
+                return a;
             }
         }
         return "";
